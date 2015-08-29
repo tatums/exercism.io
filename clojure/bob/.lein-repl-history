@@ -1,0 +1,8 @@
+(load-file "bob_test.clj")
+exit
+(load-file "bob_test.clj")
+exit
+(load-file "bob_test.clj")
+exit
+(load-file "bob_test.clj")
+exit
