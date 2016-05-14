@@ -6,3 +6,15 @@ exit
 exit
 (load-file "bob_test.clj")
 exit
+(clojure.string/blank? "")
+(parse-number "123.5")
+(re-find #"Isis" "The Band Named Isis")
+(re-find #"\n" "1 2 3 Blah")
+(re-find "\n" "1 2 3 Blah")
+(re-find #"\n" "1 2 3 Blah")
+(re-find #"\d" "1 2 3 Blah")
+(boolean (re-find #"\d" "1 2 3 Blah"))
+(boolean (re-find #"\d|!" "1,2,3!"))
+(boolean (re-find #"\d|!" "balh!"))
+(boolean (re-find #"\d|!" "blah!"))
+(boolean (re-find #"\d|!" "blah"))
